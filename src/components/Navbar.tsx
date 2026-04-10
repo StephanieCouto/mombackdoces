@@ -25,7 +25,7 @@ const Navbar = () => {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 md:px-8 flex items-center justify-between">
-          <Image src="/logo.png" alt="Momback Doces" width={1696} height={610} className="w-[150px] h-[50px]" />
+          <Image priority src="/logo.png" alt="Momback Doces" width={1696} height={610} className="w-[150px] h-[50px]" />
           
           {/* Menu Desktop */}
           <div className="hidden md:flex items-center gap-10">
