@@ -12,7 +12,7 @@ const EspeciaisSubsection = () => {
       }`}
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-        <div className="flex flex-col justify-center order-last lg:order-first">
+        <div className="flex flex-col justify-center order-first lg:order-none">
           <h3 className="heading-section text-foreground mb-6">
             Ovos de Colher
           </h3>
@@ -25,7 +25,7 @@ const EspeciaisSubsection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-1">
+        <div className="grid grid-cols-2 gap-1 order-last lg:order-none">
           <div className="image-zoom aspect-[5/6]">
             <img
               src="/doces/ovo.jpeg"

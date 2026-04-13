@@ -12,7 +12,7 @@ const TradicionaisSubsection = () => {
       }`}
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-        <div className="grid grid-cols-2 gap-1">
+        <div className="grid grid-cols-2 gap-1 order-last lg:order-none">
           <div className="image-zoom aspect-[5/6]">
             <img
               src="/doces/tradicional1.jpeg"
@@ -55,7 +55,7 @@ const TradicionaisSubsection = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center order-first lg:order-none">
           <h3 className="heading-section text-foreground mb-6">
             Doces Tradicionais
           </h3>
