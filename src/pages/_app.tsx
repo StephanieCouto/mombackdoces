@@ -7,7 +7,7 @@ const App = ({ Component, pageProps }: AppProps) => {
     <>
       <Head>
         {/* Favicon com ícone de coração */}
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='79'>❤️</text></svg>" />
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='79'>🤍</text></svg>" />
         <title>Momback Doces</title>
         
         {/* Google Analytics */}
